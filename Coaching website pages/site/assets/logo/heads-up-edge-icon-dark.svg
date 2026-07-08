@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 16 240 98" width="480" height="196" role="img" aria-label="The Heads-Up Edge">
+  <g stroke="#F1E8D6" stroke-width="3" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 28 H40 M12 52 H40 M12 76 H40 M12 100 H40"></path>
+    <path d="M40 28 V52 M40 76 V100"></path>
+    <path d="M40 40 H68 M40 88 H68"></path>
+    <path d="M68 40 V88"></path>
+    <path d="M68 64 H92"></path>
+    <path d="M228 28 H200 M228 52 H200 M228 76 H200 M228 100 H200"></path>
+    <path d="M200 28 V52 M200 76 V100"></path>
+    <path d="M200 40 H172 M200 88 H172"></path>
+    <path d="M172 40 V88"></path>
+    <path d="M172 64 H148"></path>
+  </g>
+  <g fill="#F1E8D6">
+    <circle cx="12" cy="28" r="3.6"></circle><circle cx="12" cy="52" r="3.6"></circle><circle cx="12" cy="76" r="3.6"></circle><circle cx="12" cy="100" r="3.6"></circle>
+    <circle cx="228" cy="28" r="3.6"></circle><circle cx="228" cy="52" r="3.6"></circle><circle cx="228" cy="76" r="3.6"></circle><circle cx="228" cy="100" r="3.6"></circle>
+  </g>
+  <path d="M100 46 H140 L136 62 C136 70 129 75 120 75 C111 75 104 70 104 62 Z" fill="#E2A23C" stroke="#F1E8D6" stroke-width="3" stroke-linejoin="round"></path>
+  <path d="M100 49 C90 49 89 64 101 65" fill="none" stroke="#F1E8D6" stroke-width="3" stroke-linecap="round"></path>
+  <path d="M140 49 C150 49 151 64 139 65" fill="none" stroke="#F1E8D6" stroke-width="3" stroke-linecap="round"></path>
+  <path d="M120 75 V84" stroke="#F1E8D6" stroke-width="3" stroke-linecap="round"></path>
+  <path d="M109 92 H131 L127 84 H113 Z" fill="#D9842B" stroke="#F1E8D6" stroke-width="3" stroke-linejoin="round"></path>
+</svg>
