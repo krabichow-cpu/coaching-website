@@ -458,7 +458,7 @@
   <p class="eyebrow reveal" style="font-size: 20px">The Heads-Up Edge · a tactical guide to winning tournaments</p>
   <h1 class="reveal" style="font-size: 44px">Master the highest stakes moment in tournament poker in five hours.</h1>
   <p class="lede reveal">The first course built entirely for tournament heads-up play: a complete system that combines solid theoretical play with practical exploits from a heads-up specialist.</p>
-  <div class="hero-cta reveal" style="margin-top:26px"><a class="btn btn-primary" href="https://courses.kevinrabichow.com/courses/offers/94bb0ff9-bcd8-4d5b-be00-c6a9956d922e">Get instant access <span class="arrow">→</span></a><span style="font-family:'Space Mono',monospace;font-size:13px;color:var(--muted)">// $499 · lifetime access · available in French and Portuguese</span></div>
+  <div class="hero-cta reveal" style="margin-top:26px"><a class="btn btn-primary" href="https://checkout.kevinrabichow.com/headsup-checkout">Get instant access <span class="arrow">→</span></a><span style="font-family:'Space Mono',monospace;font-size:13px;color:var(--muted)">// $499 · lifetime access · available in French and Portuguese</span></div>
 </div></section>
 
 <section class="quotes" style="padding:46px 0"><div class="wrap narrow" style="margin:0 auto;text-align:center">
@@ -483,7 +483,7 @@
     <div style="position:relative;z-index:1">
       <span class="old">Private coaching value: $5,000+</span><div class="now">$499</div><span class="save">Save over 90%</span>
       <ul><li>Full 5-hour video course</li><li>The Range Vault (76-page PDF)</li><li>Custom GTO Wizard drill library</li><li>Lifetime access</li></ul>
-      <a class="btn btn-primary" href="https://courses.kevinrabichow.com/courses/offers/94bb0ff9-bcd8-4d5b-be00-c6a9956d922e" style="margin-top:6px">Get instant access <span class="arrow">→</span></a>
+      <a class="btn btn-primary" href="https://checkout.kevinrabichow.com/headsup-checkout" style="margin-top:6px">Get instant access <span class="arrow">→</span></a>
     </div>
   </div>
   <p class="ph" style="margin-top:20px;text-align:center"><span class="ph-tag">Available in English, French (dubbed) &amp; Portuguese (dubbed) - choose your version below</span></p>
@@ -523,7 +523,7 @@
     <div style="position:relative;z-index:1">
       <span class="old">Private coaching value: $5,000+</span><div class="now">$499</div><span class="save">Save over 90%</span>
       <ul><li>Full 5-hour video course</li><li>The Range Vault (76-page PDF)</li><li>Custom GTO Wizard drill library</li><li>Lifetime access</li></ul>
-      <a class="btn btn-primary" href="https://courses.kevinrabichow.com/courses/offers/94bb0ff9-bcd8-4d5b-be00-c6a9956d922e" style="margin-top:6px">Get instant access <span class="arrow">→</span></a>
+      <a class="btn btn-primary" href="https://checkout.kevinrabichow.com/headsup-checkout" style="margin-top:6px">Get instant access <span class="arrow">→</span></a>
     </div>
   </div>
   <p class="ph" style="margin-top:20px;text-align:center"><span class="ph-tag">Available in English, French (dubbed) &amp; Portuguese (dubbed) - choose your version below</span></p>
@@ -543,19 +543,19 @@
   <h2>Prepare for your big moment before it arrives.</h2>
   <p>Watch it today, apply it in your next tournament. One better decision can cover the investment several times over.</p>
   <div class="version-grid">
-    <a class="vcard" href="https://courses.kevinrabichow.com/courses/offers/94bb0ff9-bcd8-4d5b-be00-c6a9956d922e">
+    <a class="vcard" href="https://checkout.kevinrabichow.com/headsup-checkout?english">
       <span class="vlang">English</span>
       <span class="vtitle">The Heads-Up Edge</span>
       <span class="vprice">$499 · lifetime access</span>
       <span class="vcta">Get instant access <span class="arrow">→</span></span>
     </a>
-    <a class="vcard" href="https://courses.kevinrabichow.com/courses/offers/a2a47277-ff55-4143-9a53-82337b86c419">
+    <a class="vcard" href="https://checkout.kevinrabichow.com/headsup-checkout?french">
       <span class="vlang">Français · doublé</span>
       <span class="vtitle">The Heads-Up Edge</span>
       <span class="vprice">$499 · accès à vie</span>
       <span class="vcta">Accès immédiat <span class="arrow">→</span></span>
     </a>
-    <a class="vcard" href="https://courses.kevinrabichow.com/courses/offers/1d2c96a7-3ae4-4b66-878d-5ab9e1f8cb37">
+    <a class="vcard" href="https://checkout.kevinrabichow.com/headsup-checkout?portuguese">
       <span class="vlang">Português · dublado</span>
       <span class="vtitle">The Heads-Up Edge</span>
       <span class="vprice">$499 · acesso vitalício</span>
@@ -573,4 +573,8 @@ for(var i=0;i<169;i++){var c=document.createElement('i');if(hot[i])c.className='
 if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
 var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:0.1});
 els.forEach(function(e){io.observe(e);});})();
+(function(){var code=new URLSearchParams(window.location.search).get('coupon_code');if(!code)return;
+document.querySelectorAll('a[href*="checkout.kevinrabichow.com"]').forEach(function(a){
+if(a.href.indexOf('coupon_code=')!==-1)return;
+a.href+=(a.href.indexOf('?')===-1?'?':'&')+'coupon_code='+encodeURIComponent(code);});})();
 </script></body></html>
