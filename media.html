@@ -431,6 +431,9 @@
     .coach-card{padding:36px;}
     .nav-links{display:none;}
     .menu-btn{display:block;}
+    .nav.open .nav-links{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;padding:6px 0 10px;background:var(--cream);border-bottom:1px solid var(--line);box-shadow:0 10px 26px rgba(44,36,27,0.12);}
+    .nav.open .nav-links a.navitem{padding:12px 24px;font-size:16px;}
+    .nav.open .nav-links a.btn{margin:10px 24px 2px;text-align:center;}
   }
   @media (max-width:880px){
     section{padding:54px 0;}
@@ -490,4 +493,4 @@ for(var i=0;i<169;i++){var c=document.createElement('i');if(hot[i])c.className='
 if(!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in');});return;}
 var io=new IntersectionObserver(function(en){en.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:0.1});
 els.forEach(function(e){io.observe(e);});})();
-</script><script>(function(){document.querySelectorAll('.carousel-wrap').forEach(function(w){var c=w.querySelector('.carousel');if(!c)return;var p=w.querySelector('.carousel-btn.prev'),n=w.querySelector('.carousel-btn.next');function go(x){c.scrollBy({left:x,behavior:'smooth'});}if(p)p.addEventListener('click',function(){go(-318);});if(n)n.addEventListener('click',function(){go(318);});});})();</script></body></html>
+</script><script>(function(){document.querySelectorAll('.carousel-wrap').forEach(function(w){var c=w.querySelector('.carousel');if(!c)return;var p=w.querySelector('.carousel-btn.prev'),n=w.querySelector('.carousel-btn.next');function go(x){c.scrollBy({left:x,behavior:'smooth'});}if(p)p.addEventListener('click',function(){go(-318);});if(n)n.addEventListener('click',function(){go(318);});});})();</script><script>(function(){var b=document.querySelector('.menu-btn'),n=document.querySelector('header.nav');if(!b||!n)return;b.setAttribute('aria-expanded','false');b.addEventListener('click',function(){var open=n.classList.toggle('open');b.setAttribute('aria-expanded',open?'true':'false');});n.querySelectorAll('.nav-links a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('open');b.setAttribute('aria-expanded','false');});});})();</script></body></html>

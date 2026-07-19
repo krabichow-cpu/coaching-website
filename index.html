@@ -442,6 +442,9 @@
     .coach-card{padding:36px;}
     .nav-links{display:none;}
     .menu-btn{display:block;}
+    .nav.open .nav-links{display:flex;position:absolute;top:100%;left:0;right:0;flex-direction:column;align-items:stretch;gap:0;padding:6px 0 10px;background:var(--cream);border-bottom:1px solid var(--line);box-shadow:0 10px 26px rgba(44,36,27,0.12);}
+    .nav.open .nav-links a.navitem{padding:12px 24px;font-size:16px;}
+    .nav.open .nav-links a.btn{margin:10px 24px 2px;text-align:center;}
   }
   @media (max-width:880px){
     section{padding:54px 0;}
@@ -647,4 +650,4 @@ els.forEach(function(e){io.observe(e);});})();
   modal.addEventListener('click',function(e){if(e.target===modal||e.target.classList.contains('tmodal-close'))closeM();});
   document.addEventListener('keydown',function(e){if(e.key==='Escape')closeM();});
 })();
-</script></body></html>
+</script><script>(function(){var b=document.querySelector('.menu-btn'),n=document.querySelector('header.nav');if(!b||!n)return;b.setAttribute('aria-expanded','false');b.addEventListener('click',function(){var open=n.classList.toggle('open');b.setAttribute('aria-expanded',open?'true':'false');});n.querySelectorAll('.nav-links a').forEach(function(a){a.addEventListener('click',function(){n.classList.remove('open');b.setAttribute('aria-expanded','false');});});})();</script></body></html>
